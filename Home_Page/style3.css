@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Alef&family=Amiko:wght@400;700&display=swap');
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/figma_design_parts/Rectangle_7.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 1;
+    filter: brightness(70%);
+}
+
+.heading {
+    font-family: 'Amiko', sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.main-text {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding-top:30px;
+    padding-left:40px;
+    padding-right:90px;
+    padding-bottom: 150px;
+    overflow: auto;
+    font-family: 'Alef', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.img{
+    margin-right:20px;
+    margin-top:55px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-bottom: 10%;
+    margin-top:50px;
+}
